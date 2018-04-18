@@ -72,7 +72,7 @@ Example definition (note the `orchestratorRelease` property):
 With this config file (saved as `kubernetes.1.10.json` for this example) and the `$subscriptionId` set from the previous section you can run `acs-engine deploy`:
 
 ```bash
-acs-engine deploy --api-model kubernetes.1.10.json  --subscription-id $subscriptionid --resource-group storageosazure  --location northeurope --dns-prefix storageosazure --auto-suffix
+acs-engine deploy --api-model kubernetes.1.10.json  --subscription-id $subscriptionId --resource-group storageosazure  --location northeurope --dns-prefix storageosazure --auto-suffix
 ```
 
 This will deploy your kubernetes cluster to the region of your choice. For more information on `acs-engine deploy` see [the documentation](https://github.com/Azure/acs-engine/blob/master/docs/kubernetes/deploy.md).
